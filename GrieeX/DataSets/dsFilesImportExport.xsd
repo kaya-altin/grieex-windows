@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsFilesImportExport" targetNamespace="http://tempuri.org/dsFilesImportExport.xsd" xmlns:mstns="http://tempuri.org/dsFilesImportExport.xsd" xmlns="http://tempuri.org/dsFilesImportExport.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsFilesImportExport" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsFilesImportExport" msprop:Generator_UserDSName="dsFilesImportExport">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Files" msprop:Generator_TableClassName="FilesDataTable" msprop:Generator_TableVarName="tableFiles" msprop:Generator_RowChangedName="FilesRowChanged" msprop:Generator_TablePropName="Files" msprop:Generator_RowDeletingName="FilesRowDeleting" msprop:Generator_RowChangingName="FilesRowChanging" msprop:Generator_RowEvHandlerName="FilesRowChangeEventHandler" msprop:Generator_RowDeletedName="FilesRowDeleted" msprop:Generator_RowClassName="FilesRow" msprop:Generator_UserTableName="Files" msprop:Generator_RowEvArgName="FilesRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MovieID" msprop:Generator_ColumnVarNameInTable="columnMovieID" msprop:Generator_ColumnPropNameInRow="MovieID" msprop:Generator_ColumnPropNameInTable="MovieIDColumn" msprop:Generator_UserColumnName="MovieID" type="xs:string" minOccurs="0" />
+              <xs:element name="FileID" msdata:Caption="kMovie" msprop:Generator_ColumnVarNameInTable="columnFileID" msprop:Generator_ColumnPropNameInRow="FileID" msprop:Generator_ColumnPropNameInTable="FileIDColumn" msprop:Generator_UserColumnName="FileID" type="xs:string" minOccurs="0" />
+              <xs:element name="FileName" msprop:Generator_ColumnVarNameInTable="columnFileName" msprop:Generator_ColumnPropNameInRow="FileName" msprop:Generator_ColumnPropNameInTable="FileNameColumn" msprop:Generator_UserColumnName="FileName" type="xs:string" minOccurs="0" />
+              <xs:element name="Resolution" msprop:Generator_ColumnVarNameInTable="columnResolution" msprop:Generator_ColumnPropNameInRow="Resolution" msprop:Generator_ColumnPropNameInTable="ResolutionColumn" msprop:Generator_UserColumnName="Resolution" type="xs:string" minOccurs="0" />
+              <xs:element name="VideoCodec" msprop:Generator_ColumnVarNameInTable="columnVideoCodec" msprop:Generator_ColumnPropNameInRow="VideoCodec" msprop:Generator_ColumnPropNameInTable="VideoCodecColumn" msprop:Generator_UserColumnName="VideoCodec" type="xs:string" minOccurs="0" />
+              <xs:element name="VideoBitrate" msprop:Generator_ColumnVarNameInTable="columnVideoBitrate" msprop:Generator_ColumnPropNameInRow="VideoBitrate" msprop:Generator_ColumnPropNameInTable="VideoBitrateColumn" msprop:Generator_UserColumnName="VideoBitrate" type="xs:string" minOccurs="0" />
+              <xs:element name="Fps" msprop:Generator_ColumnVarNameInTable="columnFps" msprop:Generator_ColumnPropNameInRow="Fps" msprop:Generator_ColumnPropNameInTable="FpsColumn" msprop:Generator_UserColumnName="Fps" type="xs:string" minOccurs="0" />
+              <xs:element name="VideoAspectRatio" msprop:Generator_ColumnVarNameInTable="columnVideoAspectRatio" msprop:Generator_ColumnPropNameInRow="VideoAspectRatio" msprop:Generator_ColumnPropNameInTable="VideoAspectRatioColumn" msprop:Generator_UserColumnName="VideoAspectRatio" type="xs:string" minOccurs="0" />
+              <xs:element name="AudioCodec1" msprop:Generator_ColumnVarNameInTable="columnAudioCodec1" msprop:Generator_ColumnPropNameInRow="AudioCodec1" msprop:Generator_ColumnPropNameInTable="AudioCodec1Column" msprop:Generator_UserColumnName="AudioCodec1" type="xs:string" minOccurs="0" />
+              <xs:element name="AudioChannels1" msprop:Generator_ColumnVarNameInTable="columnAudioChannels1" msprop:Generator_ColumnPropNameInRow="AudioChannels1" msprop:Generator_ColumnPropNameInTable="AudioChannels1Column" msprop:Generator_UserColumnName="AudioChannels1" type="xs:string" minOccurs="0" />
+              <xs:element name="AudioBitrate1" msprop:Generator_ColumnVarNameInTable="columnAudioBitrate1" msprop:Generator_ColumnPropNameInRow="AudioBitrate1" msprop:Generator_ColumnPropNameInTable="AudioBitrate1Column" msprop:Generator_UserColumnName="AudioBitrate1" type="xs:string" minOccurs="0" />
+              <xs:element name="AudioSampleRate1" msprop:Generator_ColumnVarNameInTable="columnAudioSampleRate1" msprop:Generator_ColumnPropNameInRow="AudioSampleRate1" msprop:Generator_ColumnPropNameInTable="AudioSampleRate1Column" msprop:Generator_UserColumnName="AudioSampleRate1" type="xs:string" minOccurs="0" />
+              <xs:element name="AudioSize1" msprop:Generator_ColumnVarNameInTable="columnAudioSize1" msprop:Generator_ColumnPropNameInRow="AudioSize1" msprop:Generator_ColumnPropNameInTable="AudioSize1Column" msprop:Generator_UserColumnName="AudioSize1" type="xs:string" minOccurs="0" />
+              <xs:element name="AudioCodec2" msprop:Generator_ColumnVarNameInTable="columnAudioCodec2" msprop:Generator_ColumnPropNameInRow="AudioCodec2" msprop:Generator_ColumnPropNameInTable="AudioCodec2Column" msprop:Generator_UserColumnName="AudioCodec2" type="xs:string" minOccurs="0" />
+              <xs:element name="AudioChannels2" msprop:Generator_ColumnVarNameInTable="columnAudioChannels2" msprop:Generator_ColumnPropNameInRow="AudioChannels2" msprop:Generator_ColumnPropNameInTable="AudioChannels2Column" msprop:Generator_UserColumnName="AudioChannels2" type="xs:string" minOccurs="0" />
+              <xs:element name="AudioBitrate2" msprop:Generator_ColumnVarNameInTable="columnAudioBitrate2" msprop:Generator_ColumnPropNameInRow="AudioBitrate2" msprop:Generator_ColumnPropNameInTable="AudioBitrate2Column" msprop:Generator_UserColumnName="AudioBitrate2" type="xs:string" minOccurs="0" />
+              <xs:element name="AudioSampleRate2" msprop:Generator_ColumnVarNameInTable="columnAudioSampleRate2" msprop:Generator_ColumnPropNameInRow="AudioSampleRate2" msprop:Generator_ColumnPropNameInTable="AudioSampleRate2Column" msprop:Generator_UserColumnName="AudioSampleRate2" type="xs:string" minOccurs="0" />
+              <xs:element name="AudioSize2" msprop:Generator_ColumnVarNameInTable="columnAudioSize2" msprop:Generator_ColumnPropNameInRow="AudioSize2" msprop:Generator_ColumnPropNameInTable="AudioSize2Column" msprop:Generator_UserColumnName="AudioSize2" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalFrames" msprop:Generator_ColumnVarNameInTable="columnTotalFrames" msprop:Generator_ColumnPropNameInRow="TotalFrames" msprop:Generator_ColumnPropNameInTable="TotalFramesColumn" msprop:Generator_UserColumnName="TotalFrames" type="xs:string" minOccurs="0" />
+              <xs:element name="Lenght" msprop:Generator_ColumnVarNameInTable="columnLenght" msprop:Generator_ColumnPropNameInRow="Lenght" msprop:Generator_ColumnPropNameInTable="LenghtColumn" msprop:Generator_UserColumnName="Lenght" type="xs:string" minOccurs="0" />
+              <xs:element name="VideoSize" msprop:Generator_ColumnVarNameInTable="columnVideoSize" msprop:Generator_ColumnPropNameInRow="VideoSize" msprop:Generator_ColumnPropNameInTable="VideoSizeColumn" msprop:Generator_UserColumnName="VideoSize" type="xs:string" minOccurs="0" />
+              <xs:element name="FileSize" msprop:Generator_ColumnVarNameInTable="columnFileSize" msprop:Generator_ColumnPropNameInRow="FileSize" msprop:Generator_ColumnPropNameInTable="FileSizeColumn" msprop:Generator_UserColumnName="FileSize" type="xs:string" minOccurs="0" />
+              <xs:element name="Chapter" msprop:Generator_ColumnVarNameInTable="columnChapter" msprop:Generator_ColumnPropNameInRow="Chapter" msprop:Generator_ColumnPropNameInTable="ChapterColumn" msprop:Generator_UserColumnName="Chapter" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>ExcelLibrary</id>
+    <version>1.2011.7.30</version>
+    <title>Excel Library</title>
+    <authors>Artiom Chilaru</authors>
+    <owners>Artiom Chilaru</owners>
+    <licenseUrl>http://www.gnu.org/licenses/lgpl.html</licenseUrl>
+    <projectUrl>http://code.google.com/p/excellibrary/</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>The aim of this project is provide a native .NET solution to create, read and modify Excel files without using COM interop or OLEDB connection.
+
+Currently .xls (BIFF8) format is implemented. In future .xlsx (Excel 2007) may also be supported.</description>
+    <summary>The aim of this project is provide a native .NET solution to create, read and modify Excel files without using COM interop or OLEDB connection.
+
+Currently .xls (BIFF8) format is implemented. In futu</summary>
+    <tags>excel</tags>
+  </metadata>
+</package>

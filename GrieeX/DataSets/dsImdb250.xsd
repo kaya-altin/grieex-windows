@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsImdb250" targetNamespace="http://tempuri.org/dsImdb250.xsd" xmlns:mstns="http://tempuri.org/dsImdb250.xsd" xmlns="http://tempuri.org/dsImdb250.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsImdb250" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsImdb250" msprop:Generator_UserDSName="dsImdb250">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tImdb250" msprop:Generator_TableClassName="tImdb250DataTable" msprop:Generator_TableVarName="tabletImdb250" msprop:Generator_TablePropName="tImdb250" msprop:Generator_RowDeletingName="tImdb250RowDeleting" msprop:Generator_UserTableName="tImdb250" msprop:Generator_RowChangingName="tImdb250RowChanging" msprop:Generator_RowEvHandlerName="tImdb250RowChangeEventHandler" msprop:Generator_RowDeletedName="tImdb250RowDeleted" msprop:Generator_RowEvArgName="tImdb250RowChangeEvent" msprop:Generator_RowChangedName="tImdb250RowChanged" msprop:Generator_RowClassName="tImdb250Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Rank" msprop:Generator_ColumnVarNameInTable="columnRank" msprop:Generator_ColumnPropNameInRow="Rank" msprop:Generator_ColumnPropNameInTable="RankColumn" msprop:Generator_UserColumnName="Rank" type="xs:int" minOccurs="0" />
+              <xs:element name="Title" msprop:Generator_ColumnVarNameInTable="columnTitle" msprop:Generator_ColumnPropNameInRow="Title" msprop:Generator_ColumnPropNameInTable="TitleColumn" msprop:Generator_UserColumnName="Title" type="xs:string" minOccurs="0" />
+              <xs:element name="Rating" msprop:Generator_ColumnVarNameInTable="columnRating" msprop:Generator_ColumnPropNameInRow="Rating" msprop:Generator_ColumnPropNameInTable="RatingColumn" msprop:Generator_UserColumnName="Rating" type="xs:string" minOccurs="0" />
+              <xs:element name="Votes" msprop:Generator_ColumnVarNameInTable="columnVotes" msprop:Generator_ColumnPropNameInRow="Votes" msprop:Generator_ColumnPropNameInTable="VotesColumn" msprop:Generator_UserColumnName="Votes" type="xs:string" minOccurs="0" />
+              <xs:element name="ImdbNo" msprop:Generator_ColumnVarNameInTable="columnImdbNo" msprop:Generator_ColumnPropNameInRow="ImdbNo" msprop:Generator_ColumnPropNameInTable="ImdbNoColumn" msprop:Generator_UserColumnName="ImdbNo" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
