@@ -22,3 +22,14 @@ GrieeX Windows
 * You can take general information about your saved movies by statistics.
 * You can run your movies on GrieeX not by searching between the files more fastly.
 * You create your own rankings by giving your personal scores.
+
+
+
+http://griee.com
+
+
+
+### Contributing!
+All contributions are super welcome! Check out the Contributing instructions for more info!
+
+GrieeX is [MIT-licensed](./License.md).
